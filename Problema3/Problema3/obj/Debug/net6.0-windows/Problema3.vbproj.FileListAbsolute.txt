@@ -1,0 +1,17 @@
+C:\Users\lfceb\source\repos\Problema3\Problema3\bin\Debug\net6.0-windows\Problema3.exe
+C:\Users\lfceb\source\repos\Problema3\Problema3\bin\Debug\net6.0-windows\Problema3.deps.json
+C:\Users\lfceb\source\repos\Problema3\Problema3\bin\Debug\net6.0-windows\Problema3.runtimeconfig.json
+C:\Users\lfceb\source\repos\Problema3\Problema3\bin\Debug\net6.0-windows\Problema3.dll
+C:\Users\lfceb\source\repos\Problema3\Problema3\bin\Debug\net6.0-windows\Problema3.pdb
+C:\Users\lfceb\source\repos\Problema3\Problema3\obj\Debug\net6.0-windows\Problema3.vbproj.AssemblyReference.cache
+C:\Users\lfceb\source\repos\Problema3\Problema3\obj\Debug\net6.0-windows\Problema3.Form1.resources
+C:\Users\lfceb\source\repos\Problema3\Problema3\obj\Debug\net6.0-windows\Problema3.vbproj.GenerateResource.cache
+C:\Users\lfceb\source\repos\Problema3\Problema3\obj\Debug\net6.0-windows\Problema3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lfceb\source\repos\Problema3\Problema3\obj\Debug\net6.0-windows\Problema3.AssemblyInfoInputs.cache
+C:\Users\lfceb\source\repos\Problema3\Problema3\obj\Debug\net6.0-windows\Problema3.AssemblyInfo.vb
+C:\Users\lfceb\source\repos\Problema3\Problema3\obj\Debug\net6.0-windows\Problema3.vbproj.CoreCompileInputs.cache
+C:\Users\lfceb\source\repos\Problema3\Problema3\obj\Debug\net6.0-windows\Problema3.dll
+C:\Users\lfceb\source\repos\Problema3\Problema3\obj\Debug\net6.0-windows\refint\Problema3.dll
+C:\Users\lfceb\source\repos\Problema3\Problema3\obj\Debug\net6.0-windows\Problema3.pdb
+C:\Users\lfceb\source\repos\Problema3\Problema3\obj\Debug\net6.0-windows\Problema3.genruntimeconfig.cache
+C:\Users\lfceb\source\repos\Problema3\Problema3\obj\Debug\net6.0-windows\ref\Problema3.dll

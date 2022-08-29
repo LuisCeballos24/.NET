@@ -8,24 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\lfceb\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\isaac\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lfceb\\source\\repos\\Problema3\\Problema3\\Problema3.vbproj",
+      "projectUniqueName": "C:\\Users\\isaac\\dev\\des8\\.NET\\Problema3\\Problema3\\Problema3.vbproj",
       "projectName": "Problema3",
-      "projectPath": "C:\\Users\\lfceb\\source\\repos\\Problema3\\Problema3\\Problema3.vbproj",
-      "packagesPath": "C:\\Users\\lfceb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lfceb\\source\\repos\\Problema3\\Problema3\\obj\\",
+      "projectPath": "C:\\Users\\isaac\\dev\\des8\\.NET\\Problema3\\Problema3\\Problema3.vbproj",
+      "packagesPath": "C:\\Users\\isaac\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\isaac\\dev\\des8\\.NET\\Problema3\\Problema3\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\lfceb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\isaac\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

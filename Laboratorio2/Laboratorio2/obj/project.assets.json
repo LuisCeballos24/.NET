@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\LuisPc\\.nuget\\packages\\": {}
+    "C:\\Users\\isaac\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LuisPc\\Documents\\GitHub\\.NET\\Laboratorio2\\Laboratorio2\\Laboratorio2.vbproj",
+      "projectUniqueName": "C:\\Users\\isaac\\dev\\des8\\.NET\\Laboratorio2\\Laboratorio2\\Laboratorio2.vbproj",
       "projectName": "Laboratorio2",
-      "projectPath": "C:\\Users\\LuisPc\\Documents\\GitHub\\.NET\\Laboratorio2\\Laboratorio2\\Laboratorio2.vbproj",
-      "packagesPath": "C:\\Users\\LuisPc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LuisPc\\Documents\\GitHub\\.NET\\Laboratorio2\\Laboratorio2\\obj\\",
+      "projectPath": "C:\\Users\\isaac\\dev\\des8\\.NET\\Laboratorio2\\Laboratorio2\\Laboratorio2.vbproj",
+      "packagesPath": "C:\\Users\\isaac\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\isaac\\dev\\des8\\.NET\\Laboratorio2\\Laboratorio2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\LuisPc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\isaac\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -1,0 +1,16 @@
+C:\Users\leone\Documents\Visual Studio 2019\DS8\Parcial1_PArias\Parcial1_PArias\obj\Debug\Parcial1_PArias.vbproj.AssemblyReference.cache
+C:\Users\leone\Documents\Visual Studio 2019\DS8\Parcial1_PArias\Parcial1_PArias\obj\Debug\Parcial1_PArias.Form1.resources
+C:\Users\leone\Documents\Visual Studio 2019\DS8\Parcial1_PArias\Parcial1_PArias\obj\Debug\Parcial1_PArias.Resources.resources
+C:\Users\leone\Documents\Visual Studio 2019\DS8\Parcial1_PArias\Parcial1_PArias\obj\Debug\Parcial1_PArias.Presentacion.resources
+C:\Users\leone\Documents\Visual Studio 2019\DS8\Parcial1_PArias\Parcial1_PArias\obj\Debug\Parcial1_PArias.Prom1.resources
+C:\Users\leone\Documents\Visual Studio 2019\DS8\Parcial1_PArias\Parcial1_PArias\obj\Debug\Parcial1_PArias.Prom2.resources
+C:\Users\leone\Documents\Visual Studio 2019\DS8\Parcial1_PArias\Parcial1_PArias\obj\Debug\Parcial1_PArias.Prom3.resources
+C:\Users\leone\Documents\Visual Studio 2019\DS8\Parcial1_PArias\Parcial1_PArias\obj\Debug\Parcial1_PArias.vbproj.GenerateResource.cache
+C:\Users\leone\Documents\Visual Studio 2019\DS8\Parcial1_PArias\Parcial1_PArias\obj\Debug\Parcial1_PArias.vbproj.CoreCompileInputs.cache
+C:\Users\leone\Documents\Visual Studio 2019\DS8\Parcial1_PArias\Parcial1_PArias\bin\Debug\Parcial1_PArias.exe.config
+C:\Users\leone\Documents\Visual Studio 2019\DS8\Parcial1_PArias\Parcial1_PArias\bin\Debug\Parcial1_PArias.exe
+C:\Users\leone\Documents\Visual Studio 2019\DS8\Parcial1_PArias\Parcial1_PArias\bin\Debug\Parcial1_PArias.pdb
+C:\Users\leone\Documents\Visual Studio 2019\DS8\Parcial1_PArias\Parcial1_PArias\bin\Debug\Parcial1_PArias.xml
+C:\Users\leone\Documents\Visual Studio 2019\DS8\Parcial1_PArias\Parcial1_PArias\obj\Debug\Parcial1_PArias.exe
+C:\Users\leone\Documents\Visual Studio 2019\DS8\Parcial1_PArias\Parcial1_PArias\obj\Debug\Parcial1_PArias.xml
+C:\Users\leone\Documents\Visual Studio 2019\DS8\Parcial1_PArias\Parcial1_PArias\obj\Debug\Parcial1_PArias.pdb

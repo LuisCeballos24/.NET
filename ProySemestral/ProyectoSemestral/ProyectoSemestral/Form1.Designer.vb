@@ -22,47 +22,57 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Button1 = New Guna.UI2.WinForms.Guna2GradientButton()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.Color.DimGray
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button1.Location = New System.Drawing.Point(215, 316)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(361, 69)
-        Me.Button1.TabIndex = 1
-        Me.Button1.Text = "Bienvenido Al Sistema"
-        Me.Button1.UseVisualStyleBackColor = False
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.ProyectoSemestral.My.Resources.Resources.FacturaEGPH
-        Me.PictureBox1.Location = New System.Drawing.Point(273, 86)
+        Me.PictureBox1.Location = New System.Drawing.Point(205, 70)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(249, 212)
+        Me.PictureBox1.Size = New System.Drawing.Size(187, 172)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 2
         Me.PictureBox1.TabStop = False
         '
+        'Button1
+        '
+        Me.Button1.AutoRoundedCorners = True
+        Me.Button1.BackColor = System.Drawing.Color.Transparent
+        Me.Button1.BorderRadius = 21
+        Me.Button1.BorderThickness = 1
+        Me.Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Button1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Button1.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(83, Byte), Integer), CType(CType(55, Byte), Integer))
+        Me.Button1.FillColor2 = System.Drawing.Color.Empty
+        Me.Button1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.Button1.ForeColor = System.Drawing.Color.White
+        Me.Button1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal
+        Me.Button1.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Button1.Location = New System.Drawing.Point(205, 271)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(187, 45)
+        Me.Button1.TabIndex = 3
+        Me.Button1.Text = "Bienvenido al Sistema"
+        Me.Button1.UseTransparentBackground = True
+        '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.BackgroundImage = Global.ProyectoSemestral.My.Resources.Resources.verdeCompleto
+        Me.BackgroundImage = Global.ProyectoSemestral.My.Resources.Resources.rm378_02c
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(808, 500)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.ClientSize = New System.Drawing.Size(606, 406)
         Me.Controls.Add(Me.Button1)
-        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Bienvenido"
@@ -70,7 +80,6 @@ Partial Class Form1
         Me.ResumeLayout(False)
 
     End Sub
-
-    Friend WithEvents Button1 As Button
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Button1 As Guna.UI2.WinForms.Guna2GradientButton
 End Class

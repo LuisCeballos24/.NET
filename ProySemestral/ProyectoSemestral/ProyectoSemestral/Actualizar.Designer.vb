@@ -25,7 +25,7 @@ Partial Class Actualizar
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button1 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.dtg1 = New System.Windows.Forms.DataGridView()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -36,6 +36,7 @@ Partial Class Actualizar
         'GroupBox1
         '
         Me.GroupBox1.BackColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.GroupBox1.BackgroundImage = Global.ProyectoSemestral.My.Resources.Resources.rm378_02c
         Me.GroupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Controls.Add(Me.dtg1)
@@ -52,16 +53,29 @@ Partial Class Actualizar
         '
         'Button1
         '
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Button1.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(613, 17)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button1.AutoRoundedCorners = True
+        Me.Button1.BackColor = System.Drawing.Color.Transparent
+        Me.Button1.BorderColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.Button1.BorderRadius = 14
+        Me.Button1.BorderThickness = 1
+        Me.Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Button1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Button1.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(51, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.Button1.FillColor2 = System.Drawing.Color.Black
+        Me.Button1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.Button1.ForeColor = System.Drawing.Color.White
+        Me.Button1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal
+        Me.Button1.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Button1.Image = Global.ProyectoSemestral.My.Resources.Resources.icons8_usuario_masculino_en_círculo_50
+        Me.Button1.Location = New System.Drawing.Point(570, 17)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(146, 29)
-        Me.Button1.TabIndex = 3
+        Me.Button1.Size = New System.Drawing.Size(170, 30)
+        Me.Button1.TabIndex = 4
         Me.Button1.Text = "Crear Cliente"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseTransparentBackground = True
         '
         'dtg1
         '
@@ -70,7 +84,6 @@ Partial Class Actualizar
         Me.dtg1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells
         Me.dtg1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
         Me.dtg1.BackgroundColor = System.Drawing.Color.Black
-        Me.dtg1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.dtg1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised
         Me.dtg1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.[Single]
         DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
@@ -91,7 +104,7 @@ Partial Class Actualizar
         DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.dtg1.DefaultCellStyle = DataGridViewCellStyle2
         Me.dtg1.EnableHeadersVisualStyles = False
-        Me.dtg1.GridColor = System.Drawing.Color.White
+        Me.dtg1.GridColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.dtg1.Location = New System.Drawing.Point(13, 58)
         Me.dtg1.Margin = New System.Windows.Forms.Padding(2)
         Me.dtg1.Name = "dtg1"
@@ -105,6 +118,7 @@ Partial Class Actualizar
         'Label2
         '
         Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(8, 17)
@@ -117,7 +131,7 @@ Partial Class Actualizar
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei UI", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(350, 22)
@@ -132,6 +146,7 @@ Partial Class Actualizar
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
+        Me.BackgroundImage = Global.ProyectoSemestral.My.Resources.Resources.rm378_02c
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(834, 482)
         Me.Controls.Add(Me.GroupBox1)
@@ -151,6 +166,6 @@ Partial Class Actualizar
     Friend WithEvents dtg1 As DataGridView
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents Button1 As Button
     Friend WithEvents OpenFileDialog1 As System.Windows.Forms.OpenFileDialog
+    Friend WithEvents Button1 As Guna.UI2.WinForms.Guna2GradientButton
 End Class

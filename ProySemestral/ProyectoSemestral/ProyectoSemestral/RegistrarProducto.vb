@@ -68,20 +68,20 @@ Public Class RegistrarProducto
         End If
     End Sub
 
-    Private Sub txtNombre_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtNombre.KeyPress
+    Private Sub txtNombre_KeyPress(sender As Object, e As KeyPressEventArgs)
         If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) And e.KeyChar = "." Then
             e.Handled = True
         End If
     End Sub
 
-    Private Sub txtPrecio_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtPrecio.KeyPress
+    Private Sub txtPrecio_KeyPress(sender As Object, e As KeyPressEventArgs)
         If Not Char.IsNumber(e.KeyChar) AndAlso Not Char.IsControl(e.KeyChar) AndAlso
             Not e.KeyChar = "." Then
             e.Handled = True
         End If
     End Sub
 
-    Private Sub txtCantidad_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtCantidad.KeyPress
+    Private Sub txtCantidad_KeyPress(sender As Object, e As KeyPressEventArgs)
         If Not Char.IsNumber(e.KeyChar) AndAlso Not Char.IsControl(e.KeyChar) Then
             e.Handled = True
         End If
@@ -93,7 +93,7 @@ Public Class RegistrarProducto
         Bienvenida.Show()
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs)
         Try
             Dim openFileDialog1 As New OpenFileDialog
 
@@ -179,4 +179,5 @@ Public Class RegistrarProducto
             Return
         End If
     End Sub
+
 End Class

@@ -99,3 +99,63 @@ C:\Users\LuisPc\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSe
 C:\Users\LuisPc\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.exe
 C:\Users\LuisPc\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.xml
 C:\Users\LuisPc\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.pdb
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.vbproj.AssemblyReference.cache
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.vbproj.SuggestedBindingRedirects.cache
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.Actualizar.resources
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.ActualizarCliente.resources
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.ActualizarProducto.resources
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.ActualizarUsuario.resources
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.Bienvenida.resources
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.Cobrar.resources
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.Form1.resources
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.FrmImportarCSV.resources
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.Login.resources
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.MenuPrincipal.resources
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.Resources.resources
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.RecuperarContraseña.resources
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.RegistrarCliente.resources
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.RegistrarProducto.resources
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.RegistrarUsuario.resources
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.Reporte.resources
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.vbproj.GenerateResource.cache
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.vbproj.CoreCompileInputs.cache
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.exe
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.xml
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.pdb
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\bin\Debug\ProyectoSemestral.exe.config
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\bin\Debug\ProyectoSemestral.exe
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\bin\Debug\ProyectoSemestral.pdb
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\bin\Debug\ProyectoSemestral.xml
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\bin\Debug\Guna.UI2.dll
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.vbproj.CopyComplete
+C:\Users\alvar\Source\Repos\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\bin\Debug\Resources\icons8-repite-uno-50.png
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\bin\Debug\Resources\icons8-repite-uno-50.png
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\bin\Debug\ProyectoSemestral.exe.config
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\bin\Debug\ProyectoSemestral.exe
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\bin\Debug\ProyectoSemestral.pdb
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\bin\Debug\ProyectoSemestral.xml
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\bin\Debug\Guna.UI2.dll
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.vbproj.AssemblyReference.cache
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.Actualizar.resources
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.ActualizarCliente.resources
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.ActualizarProducto.resources
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.ActualizarUsuario.resources
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.Bienvenida.resources
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.Cobrar.resources
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.Form1.resources
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.FrmImportarCSV.resources
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.Login.resources
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.MenuPrincipal.resources
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.Resources.resources
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.RecuperarContraseña.resources
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.RegistrarCliente.resources
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.RegistrarProducto.resources
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.RegistrarUsuario.resources
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.Reporte.resources
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.vbproj.GenerateResource.cache
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.vbproj.CoreCompileInputs.cache
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.vbproj.CopyComplete
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.exe
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.xml
+C:\Users\Luis Ceballos\Documents\GitHub\.NET\ProySemestral\ProyectoSemestral\ProyectoSemestral\obj\Debug\ProyectoSemestral.pdb

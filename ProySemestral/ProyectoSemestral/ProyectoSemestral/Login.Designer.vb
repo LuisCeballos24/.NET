@@ -26,11 +26,11 @@ Partial Class Login
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.txtPassword = New System.Windows.Forms.TextBox()
-        Me.txtEmail = New System.Windows.Forms.TextBox()
-        Me.btnIniciarSesion = New System.Windows.Forms.Button()
+        Me.txtPassword = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Button1 = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.txtEmail = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.btnIniciarSesion = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.dtgIniciarSesion = New System.Windows.Forms.DataGridView()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         CType(Me.dtgIniciarSesion, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -38,131 +38,181 @@ Partial Class Login
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(325, 72)
+        Me.Label1.Location = New System.Drawing.Point(222, 9)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(245, 39)
+        Me.Label1.Size = New System.Drawing.Size(196, 31)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Inicio De Sesión"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei UI", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei UI", 10.8!)
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(114, 27)
+        Me.Label2.Location = New System.Drawing.Point(30, 62)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(98, 31)
+        Me.Label2.Size = New System.Drawing.Size(64, 20)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Correo:"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 10.8!)
         Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.ImageAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Label3.Location = New System.Drawing.Point(64, 88)
+        Me.Label3.Location = New System.Drawing.Point(-1, 118)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(150, 31)
+        Me.Label3.Size = New System.Drawing.Size(95, 20)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Contraseña:"
         '
         'GroupBox1
         '
         Me.GroupBox1.BackColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.GroupBox1.BackgroundImage = Global.ProyectoSemestral.My.Resources.Resources.neonCuadradoVerde2
+        Me.GroupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.GroupBox1.Controls.Add(Me.txtPassword)
+        Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Controls.Add(Me.txtEmail)
+        Me.GroupBox1.Controls.Add(Me.btnIniciarSesion)
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.Label3)
-        Me.GroupBox1.Location = New System.Drawing.Point(95, 162)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.GroupBox1.Location = New System.Drawing.Point(-1, 81)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.GroupBox1.Size = New System.Drawing.Size(708, 146)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2)
+        Me.GroupBox1.Size = New System.Drawing.Size(681, 271)
         Me.GroupBox1.TabIndex = 3
         Me.GroupBox1.TabStop = False
         '
         'txtPassword
         '
-        Me.txtPassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPassword.ForeColor = System.Drawing.Color.Black
-        Me.txtPassword.Location = New System.Drawing.Point(218, 86)
-        Me.txtPassword.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPassword.AutoRoundedCorners = True
+        Me.txtPassword.BackColor = System.Drawing.Color.Transparent
+        Me.txtPassword.BorderRadius = 17
+        Me.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtPassword.DefaultText = ""
+        Me.txtPassword.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.txtPassword.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.txtPassword.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txtPassword.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txtPassword.FillColor = System.Drawing.Color.Black
+        Me.txtPassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txtPassword.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.txtPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txtPassword.Location = New System.Drawing.Point(99, 118)
         Me.txtPassword.Name = "txtPassword"
         Me.txtPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txtPassword.Size = New System.Drawing.Size(405, 34)
-        Me.txtPassword.TabIndex = 4
+        Me.txtPassword.PlaceholderText = "Contraseña"
+        Me.txtPassword.SelectedText = ""
+        Me.txtPassword.Size = New System.Drawing.Size(200, 36)
+        Me.txtPassword.TabIndex = 6
+        '
+        'Button1
+        '
+        Me.Button1.AutoRoundedCorners = True
+        Me.Button1.BackColor = System.Drawing.Color.Transparent
+        Me.Button1.BorderRadius = 21
+        Me.Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Button1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Button1.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(83, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button1.FillColor2 = System.Drawing.Color.Black
+        Me.Button1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.Button1.ForeColor = System.Drawing.Color.White
+        Me.Button1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal
+        Me.Button1.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Button1.Image = Global.ProyectoSemestral.My.Resources.Resources.icons8_bloquear_50
+        Me.Button1.Location = New System.Drawing.Point(538, 118)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(133, 45)
+        Me.Button1.TabIndex = 8
+        Me.Button1.Text = "Recuperar Contraseña"
+        Me.Button1.UseTransparentBackground = True
         '
         'txtEmail
         '
-        Me.txtEmail.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtEmail.ForeColor = System.Drawing.Color.Black
-        Me.txtEmail.Location = New System.Drawing.Point(218, 24)
-        Me.txtEmail.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtEmail.AutoRoundedCorners = True
+        Me.txtEmail.BackColor = System.Drawing.Color.Transparent
+        Me.txtEmail.BorderRadius = 17
+        Me.txtEmail.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtEmail.DefaultText = ""
+        Me.txtEmail.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.txtEmail.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.txtEmail.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txtEmail.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txtEmail.FillColor = System.Drawing.Color.Black
+        Me.txtEmail.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txtEmail.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.txtEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txtEmail.Location = New System.Drawing.Point(99, 62)
         Me.txtEmail.Name = "txtEmail"
-        Me.txtEmail.Size = New System.Drawing.Size(405, 34)
-        Me.txtEmail.TabIndex = 3
+        Me.txtEmail.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.txtEmail.PlaceholderText = "Correo"
+        Me.txtEmail.SelectedText = ""
+        Me.txtEmail.Size = New System.Drawing.Size(200, 36)
+        Me.txtEmail.TabIndex = 5
         '
         'btnIniciarSesion
         '
-        Me.btnIniciarSesion.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.btnIniciarSesion.FlatAppearance.BorderSize = 0
-        Me.btnIniciarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.btnIniciarSesion.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnIniciarSesion.AutoRoundedCorners = True
+        Me.btnIniciarSesion.BackColor = System.Drawing.Color.Transparent
+        Me.btnIniciarSesion.BorderRadius = 21
+        Me.btnIniciarSesion.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnIniciarSesion.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnIniciarSesion.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnIniciarSesion.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnIniciarSesion.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnIniciarSesion.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(83, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnIniciarSesion.FillColor2 = System.Drawing.Color.Black
+        Me.btnIniciarSesion.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.btnIniciarSesion.ForeColor = System.Drawing.Color.White
-        Me.btnIniciarSesion.Location = New System.Drawing.Point(312, 338)
-        Me.btnIniciarSesion.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.btnIniciarSesion.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal
+        Me.btnIniciarSesion.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnIniciarSesion.Image = Global.ProyectoSemestral.My.Resources.Resources.icons8_usuario_masculino_en_círculo_50
+        Me.btnIniciarSesion.Location = New System.Drawing.Point(538, 53)
         Me.btnIniciarSesion.Name = "btnIniciarSesion"
-        Me.btnIniciarSesion.Size = New System.Drawing.Size(276, 48)
-        Me.btnIniciarSesion.TabIndex = 4
+        Me.btnIniciarSesion.Size = New System.Drawing.Size(143, 45)
+        Me.btnIniciarSesion.TabIndex = 7
         Me.btnIniciarSesion.Text = "Iniciar Sesión"
-        Me.btnIniciarSesion.UseVisualStyleBackColor = False
+        Me.btnIniciarSesion.UseTransparentBackground = True
         '
         'dtgIniciarSesion
         '
         Me.dtgIniciarSesion.AllowUserToAddRows = False
         Me.dtgIniciarSesion.AllowUserToDeleteRows = False
         Me.dtgIniciarSesion.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dtgIniciarSesion.Location = New System.Drawing.Point(777, 418)
-        Me.dtgIniciarSesion.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.dtgIniciarSesion.Location = New System.Drawing.Point(431, 266)
+        Me.dtgIniciarSesion.Margin = New System.Windows.Forms.Padding(2)
         Me.dtgIniciarSesion.Name = "dtgIniciarSesion"
         Me.dtgIniciarSesion.ReadOnly = True
         Me.dtgIniciarSesion.RowHeadersWidth = 51
         Me.dtgIniciarSesion.RowTemplate.Height = 24
-        Me.dtgIniciarSesion.Size = New System.Drawing.Size(11, 18)
-        Me.dtgIniciarSesion.TabIndex = 5
-        '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(269, 391)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(356, 46)
-        Me.Button1.TabIndex = 6
-        Me.Button1.Text = "Recuperar Contraseña"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.dtgIniciarSesion.Size = New System.Drawing.Size(8, 15)
+        Me.dtgIniciarSesion.TabIndex = 9
         '
         'Login
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.ProyectoSemestral.My.Resources.Resources.verdeCompleto
+        Me.BackgroundImage = Global.ProyectoSemestral.My.Resources.Resources._90656
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(910, 552)
-        Me.Controls.Add(Me.Button1)
+        Me.ClientSize = New System.Drawing.Size(682, 448)
         Me.Controls.Add(Me.dtgIniciarSesion)
-        Me.Controls.Add(Me.btnIniciarSesion)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label1)
-        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Login"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Login"
@@ -178,9 +228,9 @@ Partial Class Login
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents txtPassword As TextBox
-    Friend WithEvents txtEmail As TextBox
-    Friend WithEvents btnIniciarSesion As Button
+    Friend WithEvents txtEmail As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtPassword As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents btnIniciarSesion As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Button1 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents dtgIniciarSesion As DataGridView
-    Friend WithEvents Button1 As Button
 End Class

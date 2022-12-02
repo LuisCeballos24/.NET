@@ -22,74 +22,225 @@ Partial Class RegistrarProducto
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btnRegistrarProducto = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnRegistrarProducto = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.btnImportar = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.btnExportar = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.Button1 = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.txtPrecio = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.txtCantidad = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.txtNombre = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.dgvProductos = New System.Windows.Forms.DataGridView()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.txtPrecio = New System.Windows.Forms.TextBox()
         Me.lblPrecio = New System.Windows.Forms.Label()
-        Me.txtCantidad = New System.Windows.Forms.TextBox()
         Me.lblCantidad = New System.Windows.Forms.Label()
-        Me.txtNombre = New System.Windows.Forms.TextBox()
         Me.lblNombre = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.btnImportar = New System.Windows.Forms.Button()
-        Me.btnExportar = New System.Windows.Forms.Button()
         Me.OpenFileDialog2 = New System.Windows.Forms.OpenFileDialog()
-        Me.dgvProductos = New System.Windows.Forms.DataGridView()
         Me.GroupBox1.SuspendLayout()
         CType(Me.dgvProductos, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'btnRegistrarProducto
-        '
-        Me.btnRegistrarProducto.BackColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.btnRegistrarProducto.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnRegistrarProducto.ForeColor = System.Drawing.Color.White
-        Me.btnRegistrarProducto.Location = New System.Drawing.Point(355, 392)
-        Me.btnRegistrarProducto.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.btnRegistrarProducto.Name = "btnRegistrarProducto"
-        Me.btnRegistrarProducto.Size = New System.Drawing.Size(151, 38)
-        Me.btnRegistrarProducto.TabIndex = 10
-        Me.btnRegistrarProducto.Text = "Registrar"
-        Me.btnRegistrarProducto.UseVisualStyleBackColor = False
-        '
         'GroupBox1
         '
-        Me.GroupBox1.BackColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.GroupBox1.Controls.Add(Me.dgvProductos)
+        Me.GroupBox1.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox1.Controls.Add(Me.btnRegistrarProducto)
-        Me.GroupBox1.Controls.Add(Me.btnExportar)
         Me.GroupBox1.Controls.Add(Me.btnImportar)
+        Me.GroupBox1.Controls.Add(Me.btnExportar)
         Me.GroupBox1.Controls.Add(Me.Button1)
-        Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.txtPrecio)
-        Me.GroupBox1.Controls.Add(Me.lblPrecio)
         Me.GroupBox1.Controls.Add(Me.txtCantidad)
-        Me.GroupBox1.Controls.Add(Me.lblCantidad)
         Me.GroupBox1.Controls.Add(Me.txtNombre)
+        Me.GroupBox1.Controls.Add(Me.dgvProductos)
+        Me.GroupBox1.Controls.Add(Me.Label2)
+        Me.GroupBox1.Controls.Add(Me.lblPrecio)
+        Me.GroupBox1.Controls.Add(Me.lblCantidad)
         Me.GroupBox1.Controls.Add(Me.lblNombre)
         Me.GroupBox1.Location = New System.Drawing.Point(37, 85)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Size = New System.Drawing.Size(927, 449)
         Me.GroupBox1.TabIndex = 9
         Me.GroupBox1.TabStop = False
         '
+        'btnRegistrarProducto
+        '
+        Me.btnRegistrarProducto.AutoRoundedCorners = True
+        Me.btnRegistrarProducto.BorderColor = System.Drawing.Color.PaleGreen
+        Me.btnRegistrarProducto.BorderRadius = 21
+        Me.btnRegistrarProducto.BorderThickness = 1
+        Me.btnRegistrarProducto.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnRegistrarProducto.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnRegistrarProducto.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnRegistrarProducto.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnRegistrarProducto.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnRegistrarProducto.FillColor = System.Drawing.Color.FromArgb(CType(CType(6, Byte), Integer), CType(CType(32, Byte), Integer), CType(CType(19, Byte), Integer))
+        Me.btnRegistrarProducto.FillColor2 = System.Drawing.Color.Empty
+        Me.btnRegistrarProducto.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.btnRegistrarProducto.ForeColor = System.Drawing.Color.White
+        Me.btnRegistrarProducto.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal
+        Me.btnRegistrarProducto.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(85, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(166, Byte), Integer))
+        Me.btnRegistrarProducto.Location = New System.Drawing.Point(393, 391)
+        Me.btnRegistrarProducto.Name = "btnRegistrarProducto"
+        Me.btnRegistrarProducto.Size = New System.Drawing.Size(177, 44)
+        Me.btnRegistrarProducto.TabIndex = 33
+        Me.btnRegistrarProducto.Text = "Registrar"
+        Me.btnRegistrarProducto.UseTransparentBackground = True
+        '
+        'btnImportar
+        '
+        Me.btnImportar.AutoRoundedCorners = True
+        Me.btnImportar.BorderColor = System.Drawing.Color.PaleGreen
+        Me.btnImportar.BorderRadius = 21
+        Me.btnImportar.BorderThickness = 1
+        Me.btnImportar.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnImportar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnImportar.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnImportar.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnImportar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnImportar.FillColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(24, Byte), Integer))
+        Me.btnImportar.FillColor2 = System.Drawing.Color.Empty
+        Me.btnImportar.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.btnImportar.ForeColor = System.Drawing.Color.White
+        Me.btnImportar.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal
+        Me.btnImportar.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(85, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(166, Byte), Integer))
+        Me.btnImportar.Image = Global.ProyectoSemestral.My.Resources.Resources.icons8_doble_abajo_50
+        Me.btnImportar.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.btnImportar.Location = New System.Drawing.Point(13, 143)
+        Me.btnImportar.Name = "btnImportar"
+        Me.btnImportar.Size = New System.Drawing.Size(177, 44)
+        Me.btnImportar.TabIndex = 32
+        Me.btnImportar.Text = "Importar"
+        Me.btnImportar.UseTransparentBackground = True
+        '
+        'btnExportar
+        '
+        Me.btnExportar.AutoRoundedCorners = True
+        Me.btnExportar.BorderColor = System.Drawing.Color.PaleGreen
+        Me.btnExportar.BorderRadius = 21
+        Me.btnExportar.BorderThickness = 1
+        Me.btnExportar.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnExportar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnExportar.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnExportar.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnExportar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnExportar.FillColor = System.Drawing.Color.FromArgb(CType(CType(20, Byte), Integer), CType(CType(74, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.btnExportar.FillColor2 = System.Drawing.Color.Empty
+        Me.btnExportar.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.btnExportar.ForeColor = System.Drawing.Color.White
+        Me.btnExportar.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal
+        Me.btnExportar.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(85, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(166, Byte), Integer))
+        Me.btnExportar.Image = Global.ProyectoSemestral.My.Resources.Resources.icons8_doble_arriba_50
+        Me.btnExportar.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.btnExportar.Location = New System.Drawing.Point(723, 143)
+        Me.btnExportar.Name = "btnExportar"
+        Me.btnExportar.Size = New System.Drawing.Size(177, 44)
+        Me.btnExportar.TabIndex = 31
+        Me.btnExportar.Text = "Exportar"
+        Me.btnExportar.UseTransparentBackground = True
+        '
         'Button1
         '
-        Me.Button1.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Button1.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.AutoRoundedCorners = True
+        Me.Button1.BorderColor = System.Drawing.Color.PaleGreen
+        Me.Button1.BorderRadius = 13
+        Me.Button1.BorderThickness = 1
+        Me.Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Button1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Button1.FillColor = System.Drawing.Color.FromArgb(CType(CType(20, Byte), Integer), CType(CType(74, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.Button1.FillColor2 = System.Drawing.Color.Empty
+        Me.Button1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(466, 83)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal
+        Me.Button1.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(85, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(166, Byte), Integer))
+        Me.Button1.Image = Global.ProyectoSemestral.My.Resources.Resources.icons8_editor_de_fotos_50
+        Me.Button1.Location = New System.Drawing.Point(498, 83)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(244, 29)
-        Me.Button1.TabIndex = 11
-        Me.Button1.Text = "Seleccionar imagen..."
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.Button1.Size = New System.Drawing.Size(206, 28)
+        Me.Button1.TabIndex = 29
+        Me.Button1.Text = "Seleccione imagen"
+        Me.Button1.UseTransparentBackground = True
+        '
+        'txtPrecio
+        '
+        Me.txtPrecio.AutoRoundedCorners = True
+        Me.txtPrecio.BorderColor = System.Drawing.Color.PaleGreen
+        Me.txtPrecio.BorderRadius = 13
+        Me.txtPrecio.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtPrecio.DefaultText = ""
+        Me.txtPrecio.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.txtPrecio.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.txtPrecio.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txtPrecio.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txtPrecio.FillColor = System.Drawing.Color.FromArgb(CType(CType(20, Byte), Integer), CType(CType(74, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.txtPrecio.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txtPrecio.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.txtPrecio.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txtPrecio.Location = New System.Drawing.Point(498, 24)
+        Me.txtPrecio.Name = "txtPrecio"
+        Me.txtPrecio.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.txtPrecio.PlaceholderText = ""
+        Me.txtPrecio.SelectedText = ""
+        Me.txtPrecio.Size = New System.Drawing.Size(206, 28)
+        Me.txtPrecio.TabIndex = 28
+        '
+        'txtCantidad
+        '
+        Me.txtCantidad.AutoRoundedCorners = True
+        Me.txtCantidad.BorderColor = System.Drawing.Color.PaleGreen
+        Me.txtCantidad.BorderRadius = 13
+        Me.txtCantidad.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtCantidad.DefaultText = ""
+        Me.txtCantidad.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.txtCantidad.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.txtCantidad.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txtCantidad.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txtCantidad.FillColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(24, Byte), Integer))
+        Me.txtCantidad.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txtCantidad.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.txtCantidad.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txtCantidad.Location = New System.Drawing.Point(134, 80)
+        Me.txtCantidad.Name = "txtCantidad"
+        Me.txtCantidad.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.txtCantidad.PlaceholderText = ""
+        Me.txtCantidad.SelectedText = ""
+        Me.txtCantidad.Size = New System.Drawing.Size(228, 28)
+        Me.txtCantidad.TabIndex = 27
+        '
+        'txtNombre
+        '
+        Me.txtNombre.AutoRoundedCorners = True
+        Me.txtNombre.BorderColor = System.Drawing.Color.PaleGreen
+        Me.txtNombre.BorderRadius = 13
+        Me.txtNombre.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtNombre.DefaultText = ""
+        Me.txtNombre.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.txtNombre.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.txtNombre.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txtNombre.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txtNombre.FillColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(24, Byte), Integer))
+        Me.txtNombre.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txtNombre.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.txtNombre.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txtNombre.Location = New System.Drawing.Point(134, 24)
+        Me.txtNombre.Name = "txtNombre"
+        Me.txtNombre.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.txtNombre.PlaceholderText = ""
+        Me.txtNombre.SelectedText = ""
+        Me.txtNombre.Size = New System.Drawing.Size(228, 28)
+        Me.txtNombre.TabIndex = 26
+        '
+        'dgvProductos
+        '
+        Me.dgvProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvProductos.Location = New System.Drawing.Point(200, 143)
+        Me.dgvProductos.Name = "dgvProductos"
+        Me.dgvProductos.Size = New System.Drawing.Size(517, 232)
+        Me.dgvProductos.TabIndex = 13
         '
         'Label2
         '
@@ -103,16 +254,6 @@ Partial Class RegistrarProducto
         Me.Label2.TabIndex = 12
         Me.Label2.Text = "Imagen:"
         '
-        'txtPrecio
-        '
-        Me.txtPrecio.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPrecio.ForeColor = System.Drawing.Color.Black
-        Me.txtPrecio.Location = New System.Drawing.Point(466, 25)
-        Me.txtPrecio.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.txtPrecio.Name = "txtPrecio"
-        Me.txtPrecio.Size = New System.Drawing.Size(245, 28)
-        Me.txtPrecio.TabIndex = 11
-        '
         'lblPrecio
         '
         Me.lblPrecio.AutoSize = True
@@ -125,16 +266,6 @@ Partial Class RegistrarProducto
         Me.lblPrecio.TabIndex = 9
         Me.lblPrecio.Text = "Precio:"
         '
-        'txtCantidad
-        '
-        Me.txtCantidad.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCantidad.ForeColor = System.Drawing.Color.Black
-        Me.txtCantidad.Location = New System.Drawing.Point(112, 83)
-        Me.txtCantidad.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.txtCantidad.Name = "txtCantidad"
-        Me.txtCantidad.Size = New System.Drawing.Size(245, 28)
-        Me.txtCantidad.TabIndex = 7
-        '
         'lblCantidad
         '
         Me.lblCantidad.AutoSize = True
@@ -146,16 +277,6 @@ Partial Class RegistrarProducto
         Me.lblCantidad.Size = New System.Drawing.Size(100, 25)
         Me.lblCantidad.TabIndex = 5
         Me.lblCantidad.Text = "Cantidad:"
-        '
-        'txtNombre
-        '
-        Me.txtNombre.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtNombre.ForeColor = System.Drawing.Color.Black
-        Me.txtNombre.Location = New System.Drawing.Point(112, 25)
-        Me.txtNombre.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.txtNombre.Name = "txtNombre"
-        Me.txtNombre.Size = New System.Drawing.Size(245, 28)
-        Me.txtNombre.TabIndex = 3
         '
         'lblNombre
         '
@@ -172,59 +293,25 @@ Partial Class RegistrarProducto
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(298, 33)
+        Me.Label1.Location = New System.Drawing.Point(406, 36)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(228, 31)
         Me.Label1.TabIndex = 8
         Me.Label1.Text = "Registrar Producto"
         '
-        'btnImportar
-        '
-        Me.btnImportar.BackColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.btnImportar.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnImportar.ForeColor = System.Drawing.Color.White
-        Me.btnImportar.Location = New System.Drawing.Point(4, 143)
-        Me.btnImportar.Margin = New System.Windows.Forms.Padding(2)
-        Me.btnImportar.Name = "btnImportar"
-        Me.btnImportar.Size = New System.Drawing.Size(151, 38)
-        Me.btnImportar.TabIndex = 11
-        Me.btnImportar.Text = "Importar"
-        Me.btnImportar.UseVisualStyleBackColor = False
-        '
-        'btnExportar
-        '
-        Me.btnExportar.BackColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.btnExportar.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnExportar.ForeColor = System.Drawing.Color.White
-        Me.btnExportar.Location = New System.Drawing.Point(761, 143)
-        Me.btnExportar.Margin = New System.Windows.Forms.Padding(2)
-        Me.btnExportar.Name = "btnExportar"
-        Me.btnExportar.Size = New System.Drawing.Size(151, 38)
-        Me.btnExportar.TabIndex = 11
-        Me.btnExportar.Text = "Exportar"
-        Me.btnExportar.UseVisualStyleBackColor = False
-        '
         'OpenFileDialog2
         '
         Me.OpenFileDialog2.FileName = "OpenFileDialog2"
-        '
-        'dgvProductos
-        '
-        Me.dgvProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvProductos.Location = New System.Drawing.Point(174, 143)
-        Me.dgvProductos.Name = "dgvProductos"
-        Me.dgvProductos.Size = New System.Drawing.Size(517, 232)
-        Me.dgvProductos.TabIndex = 13
         '
         'RegistrarProducto
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.ProyectoSemestral.My.Resources.Resources.verdeCompleto
+        Me.BackgroundImage = Global.ProyectoSemestral.My.Resources.Resources.rm378_01c
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(997, 581)
         Me.Controls.Add(Me.GroupBox1)
@@ -241,20 +328,19 @@ Partial Class RegistrarProducto
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents btnRegistrarProducto As Button
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents txtPrecio As TextBox
     Friend WithEvents lblPrecio As Label
-    Friend WithEvents txtCantidad As TextBox
     Friend WithEvents lblCantidad As Label
-    Friend WithEvents txtNombre As TextBox
     Friend WithEvents lblNombre As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents Button1 As Button
     Friend WithEvents Label2 As Label
-    Friend WithEvents btnExportar As Button
-    Friend WithEvents btnImportar As Button
     Friend WithEvents OpenFileDialog2 As OpenFileDialog
     Friend WithEvents dgvProductos As DataGridView
+    Friend WithEvents txtNombre As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtCantidad As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtPrecio As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents btnRegistrarProducto As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents btnImportar As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents btnExportar As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Button1 As Guna.UI2.WinForms.Guna2GradientButton
 End Class

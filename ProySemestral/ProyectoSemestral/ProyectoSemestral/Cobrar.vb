@@ -60,7 +60,7 @@ Public Class Cobrar
         End Try
     End Sub
 
-    Private Sub cboProductos_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboProductos.SelectedIndexChanged
+    Private Sub cboProductos_SelectedIndexChanged(sender As Object, e As EventArgs)
         Dim pasar As String = "No"
         Dim tryCatch As String = "No"
         If cboProductos.SelectedIndex > 0 Then
@@ -133,7 +133,7 @@ Public Class Cobrar
         End If
     End Sub
 
-    Private Sub cboProductos_KeyPress(sender As Object, e As KeyPressEventArgs) Handles cboProductos.KeyPress
+    Private Sub cboProductos_KeyPress(sender As Object, e As KeyPressEventArgs)
         If Asc(e.KeyChar) <> 0 Then
             If Asc(e.KeyChar) < 45 Or Asc(e.KeyChar) > 57 Then
                 e.Handled = True

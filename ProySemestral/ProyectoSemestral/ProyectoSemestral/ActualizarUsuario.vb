@@ -46,7 +46,7 @@ Public Class ActualizarUsuario
         End Try
     End Sub
 
-    Private Sub cboTipo_KeyPress(sender As Object, e As KeyPressEventArgs) Handles cboTipo.KeyPress
+    Private Sub cboTipo_KeyPress(sender As Object, e As KeyPressEventArgs)
         If Asc(e.KeyChar) <> 0 Then
             e.Handled = True
         End If

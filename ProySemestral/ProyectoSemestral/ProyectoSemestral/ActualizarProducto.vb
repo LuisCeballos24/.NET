@@ -125,7 +125,7 @@ Public Class ActualizarProducto
         End Try
     End Sub
 
-    Private Sub txtPrecio_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtPrecio.KeyPress
+    Private Sub txtPrecio_KeyPress(sender As Object, e As KeyPressEventArgs)
         If Asc(e.KeyChar) <> 8 Then
             If Asc(e.KeyChar) < 45 Or Asc(e.KeyChar) > 57 Then
                 e.Handled = True
@@ -133,7 +133,7 @@ Public Class ActualizarProducto
         End If
     End Sub
 
-    Private Sub txtCantidad_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtCantidad.KeyPress
+    Private Sub txtCantidad_KeyPress(sender As Object, e As KeyPressEventArgs)
         If Asc(e.KeyChar) <> 8 Then
             If Asc(e.KeyChar) < 45 Or Asc(e.KeyChar) > 57 Then
                 e.Handled = True

@@ -52,6 +52,9 @@
     </ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.3.5, Culture=neutral, PublicKeyToken=4015e4865bda28a4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.3.5\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -121,6 +124,11 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmImportarCSV.Designer.vb" />
+    <Compile Include="FrmImportarCSV1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FrmImportarCSV.resx</DependentUpon>
+    </Compile>
     <Compile Include="Importacion.vb" />
     <Compile Include="Login.Designer.vb">
       <DependentUpon>Login.vb</DependentUpon>
@@ -204,7 +212,10 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmImportarCSV.resx" />
+    <EmbeddedResource Include="FrmImportarCSV.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FrmImportarCSV1.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
     </EmbeddedResource>
@@ -249,6 +260,25 @@
   <ItemGroup>
     <Content Include="Archivo\datacon.xml" />
     <Content Include="Archivo\FacturaEGPH.ico" />
+    <None Include="Resources\icons8-doble-abajo-50.png" />
+    <None Include="Resources\icons8-editor-de-fotos-50.png" />
+    <None Include="Resources\icons8-doble-arriba-50.png" />
+    <None Include="Resources\icons8-bloquear-50.png" />
+    <None Include="Resources\icons8-usuario-masculino-en-círculo-50.png" />
+    <None Include="Resources\icons8-checkout-50 %281%29.png" />
+    <None Include="Resources\icons8-repite-uno-50.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\icons8-sincronizar-50.png" />
+    <None Include="Resources\icons8-izquierda-50.png" />
+    <None Include="Resources\rm378-01c.jpg" />
+    <None Include="Resources\17926.jpg" />
+    <None Include="Resources\3d-render-modern-network-communications-background1.jpg" />
+    <None Include="Resources\3d-render-modern-network-communications-background.jpg" />
+    <None Include="Resources\blackFlow.jpg" />
+    <None Include="Resources\90656.jpg" />
+    <None Include="packages.config" />
+    <None Include="Resources\rm378-02c.jpg" />
     <None Include="Resources\neonCuadradoVerde2.jpg" />
     <None Include="Resources\verdeCompleto.jpg" />
     <None Include="Resources\neonCuadradoVerde.jpg" />

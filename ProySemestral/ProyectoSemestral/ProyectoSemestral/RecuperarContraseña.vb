@@ -49,13 +49,13 @@ Public Class RecuperarContraseña
             Dim Smtp_Server As New SmtpClient
             Dim e_mail As New MailMessage
             Smtp_Server.UseDefaultCredentials = False
-            Smtp_Server.Credentials = New Net.NetworkCredential("ds8semestral@gmail.com", "globoblanco29")
+            Smtp_Server.Credentials = New Net.NetworkCredential("severiano.atencio", "poaS3q1Wj0h71u4D")
             Smtp_Server.Port = 587
             Smtp_Server.EnableSsl = True
-            Smtp_Server.Host = "smtp.gmail.com"
+            Smtp_Server.Host = "mail.smtp2go.com"
 
             e_mail = New MailMessage
-            e_mail.From = New MailAddress("ds8semestral@gmail.com")
+            e_mail.From = New MailAddress("isaac2498atencio@gmail.com")
             e_mail.To.Add(txtCorreo.Text)
             e_mail.Subject = "Petición De Contraseña Temporal"
             e_mail.Body = "Accede temporalmente con la contraseña:" & vbCrLf & Temp & vbCrLf & "Valida solo por 24 horas" & vbCrLf & vbCrLf & "Factura EGPH ™" & vbCrLf & vbCrLf & vbCrLf

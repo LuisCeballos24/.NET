@@ -151,7 +151,7 @@ Partial Class RegistrarUsuario
         Me.txtContraseña2.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txtContraseña2.Location = New System.Drawing.Point(157, 198)
         Me.txtContraseña2.Name = "txtContraseña2"
-        Me.txtContraseña2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.txtContraseña2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.txtContraseña2.PlaceholderText = ""
         Me.txtContraseña2.SelectedText = ""
         Me.txtContraseña2.Size = New System.Drawing.Size(214, 26)
@@ -197,7 +197,7 @@ Partial Class RegistrarUsuario
         Me.txtContraseña.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txtContraseña.Location = New System.Drawing.Point(157, 147)
         Me.txtContraseña.Name = "txtContraseña"
-        Me.txtContraseña.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.txtContraseña.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.txtContraseña.PlaceholderText = ""
         Me.txtContraseña.SelectedText = ""
         Me.txtContraseña.Size = New System.Drawing.Size(214, 26)

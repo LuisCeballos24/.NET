@@ -22,8 +22,8 @@ Partial Class Cobrar
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.dtg2 = New System.Windows.Forms.DataGridView()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -37,8 +37,6 @@ Partial Class Cobrar
         Me.btnCobrar = New System.Windows.Forms.Button()
         Me.txtNombreCompleto = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.btnExportar = New System.Windows.Forms.Button()
-        Me.btnImportar = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         CType(Me.dtg2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -48,8 +46,6 @@ Partial Class Cobrar
         'GroupBox1
         '
         Me.GroupBox1.BackColor = System.Drawing.Color.Transparent
-        Me.GroupBox1.Controls.Add(Me.btnImportar)
-        Me.GroupBox1.Controls.Add(Me.btnExportar)
         Me.GroupBox1.Controls.Add(Me.dtg2)
         Me.GroupBox1.Controls.Add(Me.PictureBox1)
         Me.GroupBox1.Controls.Add(Me.dtg1)
@@ -62,9 +58,9 @@ Partial Class Cobrar
         Me.GroupBox1.Controls.Add(Me.btnCobrar)
         Me.GroupBox1.Controls.Add(Me.txtNombreCompleto)
         Me.GroupBox1.Location = New System.Drawing.Point(24, 75)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Size = New System.Drawing.Size(826, 405)
         Me.GroupBox1.TabIndex = 5
         Me.GroupBox1.TabStop = False
@@ -76,26 +72,26 @@ Partial Class Cobrar
         Me.dtg2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells
         Me.dtg2.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
         Me.dtg2.BackgroundColor = System.Drawing.Color.Black
-        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.ForestGreen
-        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.DarkGreen
-        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dtg2.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = System.Drawing.Color.ForestGreen
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.DarkGreen
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dtg2.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle3
         Me.dtg2.ColumnHeadersHeight = 29
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft YaHei UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.ForestGreen
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dtg2.DefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Microsoft YaHei UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.ForestGreen
+        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dtg2.DefaultCellStyle = DataGridViewCellStyle4
         Me.dtg2.GridColor = System.Drawing.Color.White
         Me.dtg2.Location = New System.Drawing.Point(28, 106)
-        Me.dtg2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.dtg2.Margin = New System.Windows.Forms.Padding(2)
         Me.dtg2.Name = "dtg2"
         Me.dtg2.ReadOnly = True
         Me.dtg2.RowHeadersVisible = False
@@ -110,7 +106,7 @@ Partial Class Cobrar
         '
         Me.PictureBox1.Image = Global.ProyectoSemestral.My.Resources.Resources.Producto
         Me.PictureBox1.Location = New System.Drawing.Point(574, 106)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(227, 189)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -127,7 +123,7 @@ Partial Class Cobrar
         Me.dtg1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dtg1.GridColor = System.Drawing.Color.Maroon
         Me.dtg1.Location = New System.Drawing.Point(826, 376)
-        Me.dtg1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.dtg1.Margin = New System.Windows.Forms.Padding(2)
         Me.dtg1.Name = "dtg1"
         Me.dtg1.ReadOnly = True
         Me.dtg1.RowHeadersWidth = 51
@@ -166,7 +162,7 @@ Partial Class Cobrar
         Me.btnVolver.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnVolver.ForeColor = System.Drawing.Color.White
         Me.btnVolver.Location = New System.Drawing.Point(4, 370)
-        Me.btnVolver.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnVolver.Margin = New System.Windows.Forms.Padding(2)
         Me.btnVolver.Name = "btnVolver"
         Me.btnVolver.Size = New System.Drawing.Size(91, 31)
         Me.btnVolver.TabIndex = 15
@@ -190,7 +186,7 @@ Partial Class Cobrar
         Me.cboProductos.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboProductos.FormattingEnabled = True
         Me.cboProductos.Location = New System.Drawing.Point(584, 67)
-        Me.cboProductos.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboProductos.Margin = New System.Windows.Forms.Padding(2)
         Me.cboProductos.Name = "cboProductos"
         Me.cboProductos.Size = New System.Drawing.Size(219, 29)
         Me.cboProductos.TabIndex = 15
@@ -213,7 +209,7 @@ Partial Class Cobrar
         Me.btnCobrar.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCobrar.ForeColor = System.Drawing.Color.White
         Me.btnCobrar.Location = New System.Drawing.Point(301, 310)
-        Me.btnCobrar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnCobrar.Margin = New System.Windows.Forms.Padding(2)
         Me.btnCobrar.Name = "btnCobrar"
         Me.btnCobrar.Size = New System.Drawing.Size(238, 36)
         Me.btnCobrar.TabIndex = 12
@@ -244,32 +240,6 @@ Partial Class Cobrar
         Me.Label1.Size = New System.Drawing.Size(107, 36)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Cobrar"
-        '
-        'btnExportar
-        '
-        Me.btnExportar.BackColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.btnExportar.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnExportar.ForeColor = System.Drawing.Color.White
-        Me.btnExportar.Location = New System.Drawing.Point(563, 339)
-        Me.btnExportar.Margin = New System.Windows.Forms.Padding(2)
-        Me.btnExportar.Name = "btnExportar"
-        Me.btnExportar.Size = New System.Drawing.Size(238, 36)
-        Me.btnExportar.TabIndex = 26
-        Me.btnExportar.Text = "Exportar"
-        Me.btnExportar.UseVisualStyleBackColor = False
-        '
-        'btnImportar
-        '
-        Me.btnImportar.BackColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.btnImportar.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnImportar.ForeColor = System.Drawing.Color.White
-        Me.btnImportar.Location = New System.Drawing.Point(563, 299)
-        Me.btnImportar.Margin = New System.Windows.Forms.Padding(2)
-        Me.btnImportar.Name = "btnImportar"
-        Me.btnImportar.Size = New System.Drawing.Size(238, 36)
-        Me.btnImportar.TabIndex = 26
-        Me.btnImportar.Text = "Importar"
-        Me.btnImportar.UseVisualStyleBackColor = False
         '
         'Cobrar
         '
@@ -306,6 +276,4 @@ Partial Class Cobrar
     Friend WithEvents Label2 As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents dtg2 As DataGridView
-    Friend WithEvents btnImportar As Button
-    Friend WithEvents btnExportar As Button
 End Class

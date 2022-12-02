@@ -53,7 +53,6 @@ Public Class RegistrarProducto
                     txtNombre.Text = ""
                     txtPrecio.Text = ""
                     txtCantidad.Text = ""
-                    PictureBox1.Image = Image.FromFile("..\..\Productos\Producto.jpg")
 
                 Catch ex As Exception
                     MsgBox("No se pudo registrar al producto, vuelva a intentarlo
@@ -117,7 +116,6 @@ Public Class RegistrarProducto
             End If
             extension = GetExtension(openFileDialog1.FileName)
             nombreImagen = openFileDialog1.FileName
-            PictureBox1.Image = Image.FromFile(openFileDialog1.FileName)
         Catch ex As Exception
 
         End Try
@@ -135,5 +133,50 @@ Public Class RegistrarProducto
         Label1.BackColor = Color.FromArgb(230, 64, 64, 64)
         GroupBox1.BackColor = Color.FromArgb(230, 64, 64, 64)
         btnRegistrarProducto.BackColor = Color.FromArgb(230, 64, 64, 64)
+    End Sub
+
+    Private Sub btnImportar_Click(sender As Object, e As EventArgs) Handles btnImportar.Click
+        importarCSV(OpenFileDialog2, dgvProductos, ",")
+    End Sub
+
+    Private Sub btnExportar_Click(sender As Object, e As EventArgs) Handles btnExportar.Click
+        Dim ruta As String
+        Dim StrExport As String
+
+        For Each c As DataGridViewColumn In dgvProductos.Columns
+            StrExport &= """" & c.HeaderText & ""","
+        Next
+        StrExport = StrExport.Substring(0, StrExport.Length - 1)
+        StrExport &= Environment.NewLine
+
+        Dim columnas As Integer = dgvProductos.ColumnCount
+        Dim filas As Integer = dgvProductos.RowCount
+        Dim total As Integer = columnas * filas
+
+        For Each r As DataGridViewRow In dgvProductos.Rows
+            For Each c As DataGridViewCell In r.Cells
+                If Not c.Value Is Nothing Then
+                    StrExport &= """" & c.Value.ToString & ""","
+                Else
+                    StrExport &= """" & "" & ""","
+                End If
+            Next
+            StrExport = StrExport.Substring(0, StrExport.Length - 1)
+            StrExport &= Environment.NewLine
+        Next
+
+        Dim saveFileDialog As SaveFileDialog = New SaveFileDialog
+        saveFileDialog.InitialDirectory = System.Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)
+        saveFileDialog.Filter = "Archivos CSV (*.CSV)|* .CSV"
+        saveFileDialog.FilterIndex = 2
+        If saveFileDialog.ShowDialog = DialogResult.OK Then
+            ruta = saveFileDialog.FileName
+            MsgBox("exportado Correctamente", MsgBoxStyle.Information)
+            Dim tw As IO.TextWriter = New IO.StreamWriter(ruta)
+            tw.Write(StrExport)
+            tw.Close()
+        Else
+            Return
+        End If
     End Sub
 End Class

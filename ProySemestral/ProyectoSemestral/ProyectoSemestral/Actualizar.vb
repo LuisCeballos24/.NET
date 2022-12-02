@@ -245,11 +245,11 @@ Public Class Actualizar
         RegistrarCliente.Show()
     End Sub
 
-    Private Sub btnImportar_Click(sender As Object, e As EventArgs) Handles btnImportar.Click
+    Private Sub btnImportar_Click(sender As Object, e As EventArgs)
         importarCSV(OpenFileDialog1, dtg1, ",")
     End Sub
 
-    Private Sub btnExportar_Click(sender As Object, e As EventArgs) Handles btnExportar.Click
+    Private Sub btnExportar_Click(sender As Object, e As EventArgs)
         Dim ruta As String
         Dim StrExport As String
 

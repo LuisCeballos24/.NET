@@ -22,15 +22,13 @@ Partial Class Actualizar
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.dtg1 = New System.Windows.Forms.DataGridView()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.btnImportar = New System.Windows.Forms.Button()
-        Me.btnExportar = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         CType(Me.dtg1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -39,17 +37,15 @@ Partial Class Actualizar
         '
         Me.GroupBox1.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.GroupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.GroupBox1.Controls.Add(Me.btnExportar)
-        Me.GroupBox1.Controls.Add(Me.btnImportar)
         Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Controls.Add(Me.dtg1)
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.GroupBox1.ForeColor = System.Drawing.Color.White
         Me.GroupBox1.Location = New System.Drawing.Point(29, 77)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Size = New System.Drawing.Size(773, 379)
         Me.GroupBox1.TabIndex = 5
         Me.GroupBox1.TabStop = False
@@ -60,7 +56,7 @@ Partial Class Actualizar
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.Button1.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(613, 17)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(146, 29)
         Me.Button1.TabIndex = 3
@@ -77,27 +73,27 @@ Partial Class Actualizar
         Me.dtg1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.dtg1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised
         Me.dtg1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.[Single]
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = System.Drawing.Color.ForestGreen
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.DarkGreen
-        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dtg1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.ForestGreen
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.DarkGreen
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dtg1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
         Me.dtg1.ColumnHeadersHeight = 30
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle4.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle4.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.ForestGreen
-        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dtg1.DefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.ForestGreen
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dtg1.DefaultCellStyle = DataGridViewCellStyle2
         Me.dtg1.EnableHeadersVisualStyles = False
         Me.dtg1.GridColor = System.Drawing.Color.White
         Me.dtg1.Location = New System.Drawing.Point(13, 58)
-        Me.dtg1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.dtg1.Margin = New System.Windows.Forms.Padding(2)
         Me.dtg1.Name = "dtg1"
         Me.dtg1.ReadOnly = True
         Me.dtg1.RowHeadersVisible = False
@@ -131,32 +127,6 @@ Partial Class Actualizar
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Actualizar"
         '
-        'btnImportar
-        '
-        Me.btnImportar.FlatAppearance.BorderSize = 0
-        Me.btnImportar.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.btnImportar.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnImportar.Location = New System.Drawing.Point(363, 17)
-        Me.btnImportar.Margin = New System.Windows.Forms.Padding(2)
-        Me.btnImportar.Name = "btnImportar"
-        Me.btnImportar.Size = New System.Drawing.Size(109, 37)
-        Me.btnImportar.TabIndex = 4
-        Me.btnImportar.Text = "importar"
-        Me.btnImportar.UseVisualStyleBackColor = True
-        '
-        'btnExportar
-        '
-        Me.btnExportar.FlatAppearance.BorderSize = 0
-        Me.btnExportar.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.btnExportar.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnExportar.Location = New System.Drawing.Point(476, 17)
-        Me.btnExportar.Margin = New System.Windows.Forms.Padding(2)
-        Me.btnExportar.Name = "btnExportar"
-        Me.btnExportar.Size = New System.Drawing.Size(109, 37)
-        Me.btnExportar.TabIndex = 5
-        Me.btnExportar.Text = "exportar"
-        Me.btnExportar.UseVisualStyleBackColor = True
-        '
         'Actualizar
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -166,7 +136,7 @@ Partial Class Actualizar
         Me.ClientSize = New System.Drawing.Size(834, 482)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label1)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Actualizar"
         Me.Text = "Actualizar"
         Me.GroupBox1.ResumeLayout(False)
@@ -183,6 +153,4 @@ Partial Class Actualizar
     Friend WithEvents Label1 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents OpenFileDialog1 As System.Windows.Forms.OpenFileDialog
-    Friend WithEvents btnExportar As Button
-    Friend WithEvents btnImportar As Button
 End Class

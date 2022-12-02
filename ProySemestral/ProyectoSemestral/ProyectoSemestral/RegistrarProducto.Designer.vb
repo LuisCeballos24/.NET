@@ -24,7 +24,6 @@ Partial Class RegistrarProducto
     Private Sub InitializeComponent()
         Me.btnRegistrarProducto = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.txtPrecio = New System.Windows.Forms.TextBox()
@@ -34,8 +33,12 @@ Partial Class RegistrarProducto
         Me.txtNombre = New System.Windows.Forms.TextBox()
         Me.lblNombre = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.btnImportar = New System.Windows.Forms.Button()
+        Me.btnExportar = New System.Windows.Forms.Button()
+        Me.OpenFileDialog2 = New System.Windows.Forms.OpenFileDialog()
+        Me.dgvProductos = New System.Windows.Forms.DataGridView()
         Me.GroupBox1.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.dgvProductos, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btnRegistrarProducto
@@ -43,7 +46,7 @@ Partial Class RegistrarProducto
         Me.btnRegistrarProducto.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.btnRegistrarProducto.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnRegistrarProducto.ForeColor = System.Drawing.Color.White
-        Me.btnRegistrarProducto.Location = New System.Drawing.Point(328, 391)
+        Me.btnRegistrarProducto.Location = New System.Drawing.Point(355, 392)
         Me.btnRegistrarProducto.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnRegistrarProducto.Name = "btnRegistrarProducto"
         Me.btnRegistrarProducto.Size = New System.Drawing.Size(151, 38)
@@ -54,7 +57,10 @@ Partial Class RegistrarProducto
         'GroupBox1
         '
         Me.GroupBox1.BackColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.GroupBox1.Controls.Add(Me.PictureBox1)
+        Me.GroupBox1.Controls.Add(Me.dgvProductos)
+        Me.GroupBox1.Controls.Add(Me.btnRegistrarProducto)
+        Me.GroupBox1.Controls.Add(Me.btnExportar)
+        Me.GroupBox1.Controls.Add(Me.btnImportar)
         Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.txtPrecio)
@@ -67,23 +73,9 @@ Partial Class RegistrarProducto
         Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.GroupBox1.Size = New System.Drawing.Size(725, 289)
+        Me.GroupBox1.Size = New System.Drawing.Size(927, 449)
         Me.GroupBox1.TabIndex = 9
         Me.GroupBox1.TabStop = False
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox1.Image = Global.ProyectoSemestral.My.Resources.Resources.Producto
-        Me.PictureBox1.Location = New System.Drawing.Point(254, 130)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(222, 148)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 13
-        Me.PictureBox1.TabStop = False
         '
         'Button1
         '
@@ -190,14 +182,51 @@ Partial Class RegistrarProducto
         Me.Label1.TabIndex = 8
         Me.Label1.Text = "Registrar Producto"
         '
+        'btnImportar
+        '
+        Me.btnImportar.BackColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.btnImportar.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnImportar.ForeColor = System.Drawing.Color.White
+        Me.btnImportar.Location = New System.Drawing.Point(4, 143)
+        Me.btnImportar.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnImportar.Name = "btnImportar"
+        Me.btnImportar.Size = New System.Drawing.Size(151, 38)
+        Me.btnImportar.TabIndex = 11
+        Me.btnImportar.Text = "Importar"
+        Me.btnImportar.UseVisualStyleBackColor = False
+        '
+        'btnExportar
+        '
+        Me.btnExportar.BackColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.btnExportar.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnExportar.ForeColor = System.Drawing.Color.White
+        Me.btnExportar.Location = New System.Drawing.Point(761, 143)
+        Me.btnExportar.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnExportar.Name = "btnExportar"
+        Me.btnExportar.Size = New System.Drawing.Size(151, 38)
+        Me.btnExportar.TabIndex = 11
+        Me.btnExportar.Text = "Exportar"
+        Me.btnExportar.UseVisualStyleBackColor = False
+        '
+        'OpenFileDialog2
+        '
+        Me.OpenFileDialog2.FileName = "OpenFileDialog2"
+        '
+        'dgvProductos
+        '
+        Me.dgvProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvProductos.Location = New System.Drawing.Point(174, 143)
+        Me.dgvProductos.Name = "dgvProductos"
+        Me.dgvProductos.Size = New System.Drawing.Size(517, 232)
+        Me.dgvProductos.TabIndex = 13
+        '
         'RegistrarProducto
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.ProyectoSemestral.My.Resources.Resources.verdeCompleto
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.btnRegistrarProducto)
+        Me.ClientSize = New System.Drawing.Size(997, 581)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -207,7 +236,7 @@ Partial Class RegistrarProducto
         Me.Text = "RegistrarProducto"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dgvProductos, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -224,5 +253,8 @@ Partial Class RegistrarProducto
     Friend WithEvents Label1 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Label2 As Label
-    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents btnExportar As Button
+    Friend WithEvents btnImportar As Button
+    Friend WithEvents OpenFileDialog2 As OpenFileDialog
+    Friend WithEvents dgvProductos As DataGridView
 End Class

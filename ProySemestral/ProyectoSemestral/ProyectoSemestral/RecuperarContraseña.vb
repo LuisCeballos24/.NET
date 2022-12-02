@@ -58,9 +58,9 @@ Public Class RecuperarContraseña
             e_mail.From = New MailAddress("ds8semestral@gmail.com")
             e_mail.To.Add(txtCorreo.Text)
             e_mail.Subject = "Petición De Contraseña Temporal"
-            e_mail.Body = "Puede acceder a su cuenta con la siguiente contraseña temporal:" & vbCrLf & Temp & vbCrLf & "Recuerde que es válida por 24 horas, comuníquese con el administrador." & vbCrLf & vbCrLf & "Equipo De Factura EGPH ™" & vbCrLf & vbCrLf & vbCrLf
+            e_mail.Body = "Accede temporalmente con la contraseña:" & vbCrLf & Temp & vbCrLf & "Valida solo por 24 horas" & vbCrLf & vbCrLf & "Factura EGPH ™" & vbCrLf & vbCrLf & vbCrLf
             Smtp_Server.Send(e_mail)
-            MsgBox("¡Se ha enviado exitosamente el correo, revíselo en sus bandejas de entrada!", vbYes, "Éxito")
+            MsgBox("Se ha enviado exitosamente el correo", vbYes, "Éxito")
             Me.Hide()
             Login.txtEmail.Text = txtCorreo.Text
             Login.txtPassword.Text = ""

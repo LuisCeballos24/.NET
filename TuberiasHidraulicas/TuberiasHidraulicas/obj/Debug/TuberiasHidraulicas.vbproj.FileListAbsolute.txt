@@ -1,0 +1,13 @@
+C:\Users\Luis Ceballos\source\repos\TuberiasHidraulicas\TuberiasHidraulicas\obj\Debug\TuberiasHidraulicas.vbproj.AssemblyReference.cache
+C:\Users\Luis Ceballos\source\repos\TuberiasHidraulicas\TuberiasHidraulicas\obj\Debug\TuberiasHidraulicas.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Luis Ceballos\source\repos\TuberiasHidraulicas\TuberiasHidraulicas\obj\Debug\TuberiasHidraulicas.Form1.resources
+C:\Users\Luis Ceballos\source\repos\TuberiasHidraulicas\TuberiasHidraulicas\obj\Debug\TuberiasHidraulicas.Resources.resources
+C:\Users\Luis Ceballos\source\repos\TuberiasHidraulicas\TuberiasHidraulicas\obj\Debug\TuberiasHidraulicas.vbproj.GenerateResource.cache
+C:\Users\Luis Ceballos\source\repos\TuberiasHidraulicas\TuberiasHidraulicas\obj\Debug\TuberiasHidraulicas.vbproj.CoreCompileInputs.cache
+C:\Users\Luis Ceballos\source\repos\TuberiasHidraulicas\TuberiasHidraulicas\bin\Debug\TuberiasHidraulicas.exe.config
+C:\Users\Luis Ceballos\source\repos\TuberiasHidraulicas\TuberiasHidraulicas\bin\Debug\TuberiasHidraulicas.exe
+C:\Users\Luis Ceballos\source\repos\TuberiasHidraulicas\TuberiasHidraulicas\bin\Debug\TuberiasHidraulicas.pdb
+C:\Users\Luis Ceballos\source\repos\TuberiasHidraulicas\TuberiasHidraulicas\bin\Debug\TuberiasHidraulicas.xml
+C:\Users\Luis Ceballos\source\repos\TuberiasHidraulicas\TuberiasHidraulicas\obj\Debug\TuberiasHidraulicas.exe
+C:\Users\Luis Ceballos\source\repos\TuberiasHidraulicas\TuberiasHidraulicas\obj\Debug\TuberiasHidraulicas.xml
+C:\Users\Luis Ceballos\source\repos\TuberiasHidraulicas\TuberiasHidraulicas\obj\Debug\TuberiasHidraulicas.pdb

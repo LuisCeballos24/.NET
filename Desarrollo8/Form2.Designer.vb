@@ -23,113 +23,73 @@ Partial Class Form2
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.lblInicial = New System.Windows.Forms.Label()
-        Me.lblFinal = New System.Windows.Forms.Label()
-        Me.TxtInicial = New System.Windows.Forms.TextBox()
-        Me.txtFinal = New System.Windows.Forms.TextBox()
         Me.btnEjecutar = New System.Windows.Forms.Button()
-        Me.lblResultado = New System.Windows.Forms.Label()
-        Me.txtResultado = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.rdbSimple = New System.Windows.Forms.RadioButton()
+        Me.rdbSerie = New System.Windows.Forms.RadioButton()
+        Me.rdbParalelo = New System.Windows.Forms.RadioButton()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(335, 44)
+        Me.Label1.Location = New System.Drawing.Point(147, 64)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(126, 24)
+        Me.Label1.Size = New System.Drawing.Size(381, 24)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Multiplos de 3"
-        '
-        'lblInicial
-        '
-        Me.lblInicial.AccessibleRole = System.Windows.Forms.AccessibleRole.Grip
-        Me.lblInicial.AutoSize = True
-        Me.lblInicial.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblInicial.Location = New System.Drawing.Point(143, 131)
-        Me.lblInicial.Name = "lblInicial"
-        Me.lblInicial.Size = New System.Drawing.Size(76, 16)
-        Me.lblInicial.TabIndex = 1
-        Me.lblInicial.Text = "Valor Inicial"
-        '
-        'lblFinal
-        '
-        Me.lblFinal.AccessibleRole = System.Windows.Forms.AccessibleRole.Grip
-        Me.lblFinal.AutoSize = True
-        Me.lblFinal.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblFinal.Location = New System.Drawing.Point(148, 217)
-        Me.lblFinal.Name = "lblFinal"
-        Me.lblFinal.Size = New System.Drawing.Size(71, 16)
-        Me.lblFinal.TabIndex = 2
-        Me.lblFinal.Text = "Valor Final"
-        '
-        'TxtInicial
-        '
-        Me.TxtInicial.Location = New System.Drawing.Point(234, 131)
-        Me.TxtInicial.Name = "TxtInicial"
-        Me.TxtInicial.Size = New System.Drawing.Size(100, 20)
-        Me.TxtInicial.TabIndex = 3
-        '
-        'txtFinal
-        '
-        Me.txtFinal.Location = New System.Drawing.Point(234, 213)
-        Me.txtFinal.Name = "txtFinal"
-        Me.txtFinal.Size = New System.Drawing.Size(100, 20)
-        Me.txtFinal.TabIndex = 4
+        Me.Label1.Text = "Elija una opcion en la que quiere el reultado"
         '
         'btnEjecutar
         '
-        Me.btnEjecutar.Location = New System.Drawing.Point(384, 364)
+        Me.btnEjecutar.Location = New System.Drawing.Point(252, 293)
         Me.btnEjecutar.Name = "btnEjecutar"
         Me.btnEjecutar.Size = New System.Drawing.Size(124, 28)
         Me.btnEjecutar.TabIndex = 5
         Me.btnEjecutar.Text = "Ejecutar"
         Me.btnEjecutar.UseVisualStyleBackColor = True
         '
-        'lblResultado
+        'rdbSimple
         '
-        Me.lblResultado.AccessibleRole = System.Windows.Forms.AccessibleRole.Grip
-        Me.lblResultado.AutoSize = True
-        Me.lblResultado.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblResultado.Location = New System.Drawing.Point(148, 298)
-        Me.lblResultado.Name = "lblResultado"
-        Me.lblResultado.Size = New System.Drawing.Size(69, 16)
-        Me.lblResultado.TabIndex = 6
-        Me.lblResultado.Text = "Resultado"
+        Me.rdbSimple.AutoSize = True
+        Me.rdbSimple.Location = New System.Drawing.Point(151, 134)
+        Me.rdbSimple.Name = "rdbSimple"
+        Me.rdbSimple.Size = New System.Drawing.Size(95, 17)
+        Me.rdbSimple.TabIndex = 9
+        Me.rdbSimple.TabStop = True
+        Me.rdbSimple.Text = "Tuberia Simple"
+        Me.rdbSimple.UseVisualStyleBackColor = True
         '
-        'txtResultado
+        'rdbSerie
         '
-        Me.txtResultado.Location = New System.Drawing.Point(234, 294)
-        Me.txtResultado.Name = "txtResultado"
-        Me.txtResultado.ReadOnly = True
-        Me.txtResultado.Size = New System.Drawing.Size(100, 20)
-        Me.txtResultado.TabIndex = 7
+        Me.rdbSerie.AutoSize = True
+        Me.rdbSerie.Location = New System.Drawing.Point(151, 168)
+        Me.rdbSerie.Name = "rdbSerie"
+        Me.rdbSerie.Size = New System.Drawing.Size(104, 17)
+        Me.rdbSerie.TabIndex = 10
+        Me.rdbSerie.TabStop = True
+        Me.rdbSerie.Text = "Tuberia En Serie"
+        Me.rdbSerie.UseVisualStyleBackColor = True
         '
-        'Label2
+        'rdbParalelo
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(248, 44)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(126, 24)
-        Me.Label2.TabIndex = 0
-        Me.Label2.Text = "Multiplos de 3"
+        Me.rdbParalelo.AutoSize = True
+        Me.rdbParalelo.Location = New System.Drawing.Point(151, 202)
+        Me.rdbParalelo.Name = "rdbParalelo"
+        Me.rdbParalelo.Size = New System.Drawing.Size(117, 17)
+        Me.rdbParalelo.TabIndex = 11
+        Me.rdbParalelo.TabStop = True
+        Me.rdbParalelo.Text = "Tuberia en Paralelo"
+        Me.rdbParalelo.UseVisualStyleBackColor = True
         '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(643, 450)
-        Me.Controls.Add(Me.txtResultado)
-        Me.Controls.Add(Me.lblResultado)
+        Me.Controls.Add(Me.rdbParalelo)
+        Me.Controls.Add(Me.rdbSerie)
+        Me.Controls.Add(Me.rdbSimple)
         Me.Controls.Add(Me.btnEjecutar)
-        Me.Controls.Add(Me.txtFinal)
-        Me.Controls.Add(Me.TxtInicial)
-        Me.Controls.Add(Me.lblFinal)
-        Me.Controls.Add(Me.lblInicial)
-        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form2"
         Me.Text = "Form2"
@@ -139,12 +99,8 @@ Partial Class Form2
     End Sub
 
     Friend WithEvents Label1 As Label
-    Friend WithEvents lblInicial As Label
-    Friend WithEvents lblFinal As Label
-    Friend WithEvents TxtInicial As TextBox
-    Friend WithEvents txtFinal As TextBox
     Friend WithEvents btnEjecutar As Button
-    Friend WithEvents lblResultado As Label
-    Friend WithEvents txtResultado As TextBox
-    Friend WithEvents Label2 As Label
+    Friend WithEvents rdbSimple As RadioButton
+    Friend WithEvents rdbSerie As RadioButton
+    Friend WithEvents rdbParalelo As RadioButton
 End Class
